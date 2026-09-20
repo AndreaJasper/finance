@@ -8,6 +8,8 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 # gem "jekyll", "~> 4.4.1"
+gem "jekyll", "~> 3.9"
+gem "liquid", ">= 4.0.4"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.5"
 gem "minimal-mistakes-jekyll"
@@ -18,7 +20,7 @@ gem "minimal-mistakes-jekyll"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "github-pages"
+  # gem "github-pages"
   # gem "jekyll-include-cache"
 end
 
@@ -45,3 +47,4 @@ gem "faraday-retry"
 gem "kramdown-parser-gfm"
 
 gem "webrick", "~> 1.9"
+gem "liquid", ">= 4.0.4"   
